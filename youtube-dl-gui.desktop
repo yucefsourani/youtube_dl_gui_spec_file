@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Youtube-dl-Gui
+Comment=GUI For youtube-dl
+GenericName=youtube
+Exec=youtube-dl-gui
+Terminal=false
+Icon=youtube-dl-gui.png
+Type=Application
+Categories=Network;
+
+
