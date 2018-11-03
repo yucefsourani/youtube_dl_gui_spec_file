@@ -6,7 +6,7 @@ Summary:        GUI For youtube-dl
 License:        Unlicense
 URL:            http://mrs0m30n3.github.io/youtube-dl-gui/
 Source0:        https://github.com/MrS0m30n3/youtube-dl-gui/archive/master.tar.gz
-Source1:        youtube-dl-gui.desktop
+Source1:        https://raw.githubusercontent.com/yucefsourani/youtube_dl_gui_spec_file/master/youtube-dl-gui.desktop
 BuildRequires:  python2-devel
 BuildRequires:  python2-rpm-macros
 BuildRequires:  wxPython-devel
