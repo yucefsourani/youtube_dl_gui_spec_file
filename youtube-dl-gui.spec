@@ -38,11 +38,11 @@ rm -rf $RPM_BUILD_ROOT
 %{__python2} setup.py install -O1 --skip-build --root $RPM_BUILD_ROOT
 mkdir -p %{buildroot}%{_datadir}/applications
 cp %{SOURCE1} %{buildroot}%{_datadir}/applications
-%find_lang  youtube_dl_gui
 
 
 
-%files -f youtube_dl_gui.lang
+
+%files
 %license LICENSE
 %doc README.md AUTHORS
 %{_bindir}/youtube-dl-gui
@@ -50,6 +50,7 @@ cp %{SOURCE1} %{buildroot}%{_datadir}/applications
 %{_datadir}/pixmaps/youtube-dl-gui.png
 %{_datadir}/icons/hicolor/*/apps/youtube-dl-gui*
 %{python_sitelib}/*
+%{_mandir}/man1/youtube-dl-gui.1*
 
 %changelog
 * Sat Nov 03 2018 youcef sourani <youssef.m.sourani@gmail.com> - 0.4-2
